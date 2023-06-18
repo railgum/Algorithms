@@ -1,11 +1,12 @@
 import java.util.Random;
 import Lesson_2.*;
-
+import HomeWork_2.*;
 public class Main {
     public static void main(String[] args) {
         int[] array = randomFill(6);
         print(array);
-        BubbleSort.bubleSort(array);
+//        BubbleSort.bubleSort(array);
+        HeapSort.sort(array);
         print(array);
     }
 
