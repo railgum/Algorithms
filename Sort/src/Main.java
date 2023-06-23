@@ -6,7 +6,7 @@ public class Main {
         int[] array = randomFill(6);
         print(array);
 //        BubbleSort.bubleSort(array);
-        HeapSort.sort(array);
+//        HeapSort.sort(array);
         print(array);
     }
 
