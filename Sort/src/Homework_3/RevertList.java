@@ -8,7 +8,7 @@ public class RevertList {
         if (root != null && root.next != null){
             Node temp = root;
             revert(root.next, root);
-            root.next = null;
+            temp.next = null;
         }
     }
     private void revert(Node currentNode, Node previousNode){
