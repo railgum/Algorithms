@@ -9,13 +9,9 @@ public class Main {
 //        BubbleSort.bubbleSort(array);
 //        HeapSort.sort(array);
 //        print(array);
-        LinkedListSem list = new LinkedListSem();
-        list.add(5);
-        list.add(2);
-        list.add(7);
-        list.add(1);
+        LinkedListSem list = randomFillList(7);
         list.print();
-        list.removeAt(2);
+        list.revert();
         list.print();
 
     }
@@ -26,6 +22,13 @@ public class Main {
             array[i] = new Random().nextInt(10);
         }
         return array;
+    }
+    private static LinkedListSem randomFillList(int lotNodes){
+        LinkedListSem list = new LinkedListSem();
+        for (int i = 0; i < lotNodes; i++) {
+            list.add(new Random().nextInt(10));
+        }
+        return list;
     }
     public static void print(int[] array) {
         for (int i = 0; i < array.length; i++) {
