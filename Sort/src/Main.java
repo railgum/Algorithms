@@ -9,7 +9,7 @@ public class Main {
 //        BubbleSort.bubbleSort(array);
 //        HeapSort.sort(array);
 //        print(array);
-        LinkedListSem list = randomFillList(7);
+        LinkedListSem list = randomFillList(15);
         list.print();
         list.revert();
         list.print();
