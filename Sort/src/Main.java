@@ -6,6 +6,7 @@ import Lesson_2.*;
 import HomeWork_2.*;
 import Sem_3.*;
 import Lesson_4.*;
+import Sem_4.*;
 public class Main {
     public static void main(String[] args) {
 //        int[] array = randomFill(6);
@@ -21,7 +22,7 @@ public class Main {
         list.print();
         list.removeAt(2);
         list.print();*/
-        final RedBlackTree tree = new RedBlackTree();
+        /*final RedBlackTree tree = new RedBlackTree();
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
            while (true){
                try {
@@ -34,7 +35,18 @@ public class Main {
            }
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
+        }*/
+
+        BinaryTree<Integer> tree = new BinaryTree<>();
+        tree.add(6);
+        tree.add(3);
+        tree.add(4);
+        tree.add(8);
+        tree.add(5);
+        tree.add(2);
+        tree.add(15);
+
+        tree.print();
     }
 
     private static int[] randomFill(int size) {
