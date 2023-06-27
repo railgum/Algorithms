@@ -14,7 +14,7 @@ public class Main {
 //        BubbleSort.bubbleSort(array);
 //        HeapSort.sort(array);
 //        print(array);
-<<<<<<< HEAD
+
      /*   LinkedListSem list = new LinkedListSem();
         list.add(5);
         list.add(2);
@@ -46,12 +46,6 @@ public class Main {
         tree.add(5);
         tree.add(2);
         tree.add(15);
-=======
-        LinkedListSem list = randomFillList(15);
-        list.print();
-        list.revert();
-        list.print();
->>>>>>> homework_3
 
         tree.print();
     }
