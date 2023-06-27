@@ -14,6 +14,7 @@ public class Main {
 //        BubbleSort.bubbleSort(array);
 //        HeapSort.sort(array);
 //        print(array);
+<<<<<<< HEAD
      /*   LinkedListSem list = new LinkedListSem();
         list.add(5);
         list.add(2);
@@ -45,6 +46,12 @@ public class Main {
         tree.add(5);
         tree.add(2);
         tree.add(15);
+=======
+        LinkedListSem list = randomFillList(15);
+        list.print();
+        list.revert();
+        list.print();
+>>>>>>> homework_3
 
         tree.print();
     }
@@ -55,6 +62,13 @@ public class Main {
             array[i] = new Random().nextInt(10);
         }
         return array;
+    }
+    private static LinkedListSem randomFillList(int lotNodes){
+        LinkedListSem list = new LinkedListSem();
+        for (int i = 0; i < lotNodes; i++) {
+            list.add(new Random().nextInt(10));
+        }
+        return list;
     }
     public static void print(int[] array) {
         for (int i = 0; i < array.length; i++) {
