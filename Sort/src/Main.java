@@ -46,6 +46,8 @@ public class Main {
         tree.add(5);
         tree.add(2);
         tree.add(15);
+        tree.remove(6);
+        tree.remove(15);
 
         tree.print();
     }
